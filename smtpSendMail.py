@@ -19,9 +19,9 @@ def _format_addr(s):
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
 def sendMail():
-    from_addr = "rolanky@sina.com"
-    password = "ea06b29df2dff13f"
-    to_addr = "1435959447@qq.com"
+    from_addr = ""
+    password = ""
+    to_addr = ""
     smtp_server = "smtp.sina.com"
 
     msg = MIMEText(getIp(), 'plain', 'utf-8')
